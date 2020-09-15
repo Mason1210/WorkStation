@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block title %}Register{% endblock %}
+
+{% block content %}
+
+<div class="layui-row">
+    <div class="layui-col-md4 layui-col-md-offset4 layui-row">
+        <div class="layui-col-md10 layui-col-md-offset1">
+            <div class="hei"></div>
+            <h1 class="login-head">REGISTER</h1>
+            <form class="layui-form" method="post">
+                <div class="layui-form-item">
+                    <input class="layui-input" name="username" id="username" required placeholder="Username">
+                </div>
+                <div class="layui-form-item">
+                    <input class="layui-input" type="password" name="password" id="password" required placeholder="Password">
+                </div>
+                <div class="layui-form-item">
+                    <input class="layui-input" type="password" name="password" id="password" required placeholder="Retype Password">
+                </div>
+                <input class="layui-btn  layui-btn-fluid" type="submit" value="register">
+            </form> 
+            
+        </div>
+        
+    </div>
+</div>
+
+{% endblock %}
