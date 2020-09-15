@@ -1,5 +1,4 @@
 test
 venv
 instance
-__pycache__
-
+home/__pycache__/*.pyc
