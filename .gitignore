@@ -6,4 +6,3 @@ home/__pycache__/*.*.pyc
 home/__pycache__/*.cpython-38.pyc
 home/__pycache__/__init__.cpython-38.pyc
 home/__pycache__/auth.cpython-38.pyc
-instance/flaskr.sqlite
