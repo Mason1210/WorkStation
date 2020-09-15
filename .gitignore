@@ -2,3 +2,5 @@ test
 venv
 instance
 home/__pycache__/*.pyc
+home/__pycache__/*.*.pyc
+home/__pycache__/*.cpython-38.pyc
