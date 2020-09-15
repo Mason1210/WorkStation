@@ -52,7 +52,7 @@ def login():
         ).fetchone()
 
         if user is None:
-            error = 'Incorrect username.'
+            return redirect(url_for('auth.register'))
         elif not check_password_hash(user['password'], password):
             error = 'Incorrect password.'
 

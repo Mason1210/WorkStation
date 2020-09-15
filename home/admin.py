@@ -10,7 +10,8 @@ from home.auth import login_required
 
 bp = Blueprint('admin', __name__, url_prefix='/admin')
 
-@login_required
+
 @bp.route('/', methods=('GET', 'POST'))
+@login_required
 def admin():
     return render_template('admin/index.html')
